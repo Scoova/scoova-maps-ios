@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'ScoovaMaps'
-  s.version          = '1.0.0'
-  s.summary          = 'Static-map URL helpers + style URL helpers for MapLibre-compatible renderers.'
+  s.version          = '1.0.1'
+  s.summary          = 'Static-map URL helpers + style URL helpers for Scoova-compatible renderers.'
 
   s.description      = <<-DESC
-    Static-map URL helpers + style URL helpers for MapLibre-compatible renderers.
+    Static-map URL helpers + style URL helpers for Scoova-compatible renderers.
 
     Pure Swift. Uses URLSession + async/await. Auto-detects
     `Bundle.main.bundleIdentifier` for the X-Ios-Bundle-Identifier

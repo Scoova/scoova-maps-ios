@@ -242,7 +242,7 @@ public enum ScoovaMaps {
         }
     }
 
-    /// MapLibre-compatible style URL. Use to point MapLibre Native iOS (or
+    /// Scoova-compatible style URL. Use to point MapLibre Native iOS (or
     /// any other MapLibre-style consumer) at a named Scoova style.
     public static func styleURL(_ styleName: String, options: StyleUrlOptions) -> URL {
         let base = trimTrailingSlashes(options.tilesBase)

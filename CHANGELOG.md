@@ -13,7 +13,7 @@ Initial release.
   PDF receipts, etc.
 - `ScoovaMaps.staticMap(_:session:)` — `async throws -> Data`; forwards
   `Accept-Language` when a locale is supplied.
-- `ScoovaMaps.styleURL(_:options:)` — MapLibre-compatible style URL builder.
+- `ScoovaMaps.styleURL(_:options:)` — Scoova-compatible style URL builder.
 - `ScoovaMapDefaults` (Scoova endpoint constants + `styleURL(forLocale:)`
   convenience).
 - `ScoovaColors` (brand colors), `ScoovaLatLng`, `StaticMapMarker`,
